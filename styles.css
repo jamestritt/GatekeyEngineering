@@ -1,0 +1,827 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                }
+                
+                body * {
+                    -webkit-font-smoothing: antialiased !important;
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-weight: normal;
+                }
+                
+                .nav-item {
+                    outline-color: rgb(255, 255, 255);
+                }
+                
+                a {
+                    outline: none;
+                }
+                
+                @media screen and (max-width: 550px) {
+                    .col-12.col-md-6.col-lg-3.card-group {
+                        padding: 15px;
+                        padding-bottom: 50px;
+                    }
+                    .about_us_photo {
+                        width: 50%;
+                        margin-bottom: 20px;
+                    }
+                    .about_us_row {
+                        margin-top: 50px;
+                    }
+                    .Green_button {
+                        margin: 20px 0px;
+                    }
+                    a.navbar-brand {
+                        width: 75%;
+                    }
+                    .col-12.col-md-3.col-lg-3.card_fav_project {
+                        width: 94%;
+                    }
+                    .col-12.col-md-6.col-lg-6.card_fav_project_wide {
+                        width: 94%;
+                    }
+                    h1.title {
+                        margin-top: 20px;
+                        font-size: 2.6em;
+                    }
+                    .titleAmper {
+                        font-size: .9em;
+                    }
+                    h1.title_expertise_subtitle {
+                        font-size: 2em;
+                    }
+                    h1.title_expertise {
+                        font-size: 2em;
+                        margin: 0px 0px 20px 0px;
+                    }
+                    .text-center {
+                        width: 95%;
+                        margin: 0 auto;
+                    }
+                    .AboutUs {
+                        text-align: center;
+                    }
+                    img.about_us_photo {
+                        border-radius: 50%;
+                    }
+                }
+                
+                @media screen and (min-width: 350px) {
+                    .about_us_photo_spacing {
+                        padding-bottom: ;
+                        text-align: center;
+                    }
+                    img.about_us_photo {
+                        border-radius: 50%;
+                        text-align: center;
+                        max-width: 300px;
+                    }
+                    h1.title_expertise_subtitle {
+                        font-size: 1.4em;
+                        margin-top: 20px;
+                    }
+                    span.titleAmper {
+                        font-size: .9em;
+                    }
+                }
+                
+                @media screen and (min-width: 700px) {
+                    .col-12.col-md-6.col-lg-2.card-group {
+                        padding: 15px;
+                    }
+                    .col-12.col-md-6.col-lg-3.card-group {
+                        padding-bottom: 50px;
+                    }
+                    .box {
+                        background-color: white;
+                        border-style: none;
+                    }
+                    .titleAmper {
+                        font-size: 1em;
+                    }
+                    h1.title {
+                        font-size: 3em;
+                    }
+                    h1.title_expertise {
+                        margin: 0px 0px 20px 0px;
+                        padding-top: 12px;
+                    }
+                    h1.title_expertise_subtitle {
+                        margin-top: 20px;
+                        font-size: 1.7em;
+                    }
+                    .about_us_photo {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
+                    img.about_us_photo {
+                        border-radius: 50%;
+                    }
+                    .about_us_photo_spacing {
+                        padding-bottom: ;
+                        text-align: center;
+                    }
+                }
+                
+                @media screen and (min-width: 1200px) {
+                    img.about_us_photo {
+                        border-radius: 50%;
+                    }
+                }
+                
+                .ImageCard {
+                    max-width: 100%;
+                    margin: auto;
+                }
+                
+                ul {
+                    line-height: 1.5em;
+                    margin: 15px 0 15px;
+                    padding: 0;
+                }
+                
+                li {
+                    list-style: none;
+                    position: relative;
+                }
+                
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                a:hover {
+                    color: #E5AA24;
+                }
+                
+                a.btn.Green_button {
+                    margin-top: 10px;
+                }
+                
+                .phoneNumber {
+                    color: #017F7F;
+                }
+                
+                ul.navbar-nav.ms-auto {
+                    margin-right: 30px;
+                }
+                
+                a.dropdown-item.Darkgrey {
+                    color: #1e2125;
+                }
+                
+                .dropdown-item:focus,
+                .dropdown-item:hover {
+                    background-color: #E5AA24;
+                }
+                
+                a.dropdown-item.indent {
+                    color: rgba(0, 0, 0, .55) !important;
+                }
+                
+                .nav-link:hover {
+                    color: rgba(0, 0, 0, .55);
+                    background-color: #E5AA24;
+                }
+                
+                .indent {
+                    padding-left: 30px;
+                }
+                
+                img {
+                    width: 100%;
+                }
+                
+                h4 {
+                    font-size: 1em;
+                }
+                
+                .homePageRow {
+                    max-width: 90%;
+                    margin: auto;
+                    margin-top: 50px;
+                }
+                
+                .AboutUs {
+                    padding: 25px;
+                }
+                
+                .Background {
+                    margin-top: 25px;
+                    background-image: url(images/test.png);
+                    padding-top: 25px;
+                }
+                
+                .PageRow {
+                    padding-top: 50px;
+                }
+                
+                .container {
+                    margin-top: 50px;
+                }
+                
+                .title {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 2em;
+                    color: #E5AA24;
+                    text-transform: uppercase;
+                    margin: 0px 0px 20px 0px;
+                }
+                
+                .title_home {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 2em;
+                    color: #E5AA24 !important;
+                    text-transform: uppercase;
+                    margin: 0px 0px 20px 0px;
+                }
+                
+                .title_career {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 3em;
+                    color: #E5AA24;
+                    text-transform: uppercase;
+                    padding-top: 12px;
+                    margin: 0px 0px 20px 0px;
+                    text-align: center;
+                }
+                
+                .bodyCopy_career {
+                    text-align: center;
+                }
+                
+                .title_expertise {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 2em;
+                    color: #E5AA24;
+                    text-transform: uppercase;
+                    padding-top: 12px;
+                }
+                
+                .title_Green {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 3.5em;
+                    color: #017F7F;
+                }
+                
+                .Icons {
+                    position: relative;
+                    margin: 0 auto;
+                    padding: 10px;
+                    width: 50%;
+                }
+                
+                .email {
+                    color: #017F7F;
+                }
+                
+                .card {
+                    border: 1px solid rgba(128, 128, 128, .5);
+                    min-height: 325px;
+                }
+                
+                .card_shadow {
+                    background-color: white;
+                    box-shadow: 0rem 0rem .5rem rgba(0, 0, 0, .2);
+                    border-radius: 8px;
+                }
+                
+                .card-title {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25em;
+                    color: black;
+                    text-transform: uppercase;
+                    word-wrap: normal;
+                }
+                
+                .card-text {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: lighter;
+                    font-size: 1em;
+                    color: black;
+                    padding: 10px;
+                }
+                
+                .overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: #017F7F;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 0;
+                    transition: .5s ease;
+                }
+                
+                .card-a:hover .overlay {
+                    height: 100%;
+                }
+                
+                .text {
+                    color: white;
+                    font-size: 1em;
+                    position: absolute;
+                    top: 25%;
+                    left: 2.5%;
+                    -webkit-transform: translate(0%, -25%);
+                    -ms-transform: translate(0%, -25%);
+                    transform: translate(0%, -25%);
+                    width: 90%;
+                    position: relative;
+                }
+                
+                .list_expertise {
+                    line-height: ;
+                }
+                
+                li.arrow {
+                    padding: 0 0 0 20px;
+                    margin: 10px;
+                }
+                
+                li.arrow::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 10px;
+                    height: 10px;
+                    width: 10px;
+                    border: 1px solid #017F7F;
+                    border-width: 2px 2px 0 0;
+                    transform: rotate(45deg);
+                    line-height: 2em;
+                }
+                
+                .ImageCard_Expertise {
+                    max-height: 150px;
+                }
+                
+                .green_top_bar {
+                    padding: 15px 0px;
+                    border: 1px solid white;
+                    background-color: white;
+                    box-shadow: 0px -10px 0px #017F7F;
+                }
+                
+                .Yellow_button {
+                    background-color: #E5AA24;
+                    border-color: #E5AA24;
+                }
+                
+                .Yellow_button:hover {
+                    background-color: white;
+                    border-color: white;
+                }
+                
+                .GreenBox {
+                    background-color: #017F7F;
+                    margin-top: 50px;
+                    padding: 40px;
+                    color: white;
+                }
+                
+                button {
+                    padding: 7px 20px;
+                    border-radius: 12px;
+                    background-color: white;
+                    color: white;
+                    font-size: .75em;
+                }
+                
+                .Green_button {
+                    background-color: #017F7F;
+                    border-color: #017F7F;
+                    color: white;
+                    margin-bottom: 20px;
+                }
+                
+                .Green_buttonButtom {
+                    background-color: #017F7F;
+                    border-color: #017F7F;
+                    color: white;
+                    margin-bottom: 20px;
+                    margin-top: auto;
+                }
+                
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                button.btn {
+                    margin-top: auto;
+                }
+                
+                .Green_button:hover {
+                    background-color: #E5AA24;
+                    border-color: #E5AA24;
+                    color: white;
+                }
+                
+                .btn-primary {
+                    background-color: white;
+                    border-color: white;
+                    color: black;
+                }
+                
+                .btn-primary:hover {
+                    color: #fff;
+                    background-color: #E5AA24;
+                    border-color: #E5AA24;
+                }
+                
+                .border-bottom {
+                    margin-top: 50px;
+                }
+                
+                #main {
+                    width: 100%;
+                    padding: 0;
+                }
+                
+                .content-asset p {
+                    margin: 0 auto;
+                }
+                
+                .breadcrumb {
+                    display: none;
+                }
+                /* Typography */
+                /**************************/
+                
+                #parallax-world-of-ugg h1 {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-size: 2em;
+                    letter-spacing: 10px;
+                    text-align: center;
+                    color: black;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                #parallax-world-of-ugg h2 {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-size: 2em;
+                    letter-spacing: 10px;
+                    text-align: center;
+                    color: white;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    z-index: 10;
+                }
+                
+                #parallax-world-of-ugg h3 {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-size: 1em;
+                    line-height: 2;
+                    font-weight: 400;
+                    letter-spacing: 8px;
+                    width: 50%;
+                    margin: 0 auto;
+                    background-color: white;
+                    padding: 15px;
+                    text-align: center;
+                }
+                
+                #parallax-world-of-ugg p {
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: 400;
+                    font-size: 1em;
+                    line-height: 24px;
+                    text-align: center;
+                }
+                
+                .first-character {
+                    font-weight: 400;
+                    float: left;
+                    font-size: 84px;
+                    line-height: 64px;
+                    padding-top: 4px;
+                    padding-right: 8px;
+                    padding-left: 3px;
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                }
+                /* Section - Title */
+                /**************************/
+                
+                #parallax-world-of-ugg .title {
+                    background: white;
+                    padding: 60px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                
+                #parallax-world-of-ugg .title h1 {
+                    font-size: 1em;
+                    letter-spacing: 8px;
+                }
+                /* Section - Block */
+                /**************************/
+                
+                #parallax-world-of-ugg .block {
+                    background: white;
+                    padding: 50px;
+                    width: 820px;
+                    margin: 0 auto;
+                    text-align: justify;
+                }
+                
+                #parallax-world-of-ugg .block-gray {
+                    background: #f2f2f2;
+                    padding: 60px;
+                }
+                
+                #parallax-world-of-ugg .section-overlay-mask {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: black;
+                    opacity: 0.70;
+                }
+                /* Section - Parallax */
+                /**************************/
+                
+                #parallax-world-of-ugg .parallax-one {
+                    padding-top: 75px;
+                    padding-bottom: 75px;
+                    overflow: hidden;
+                    position: relative;
+                    width: 95%;
+                    background-image: url(images/What_we_do_parallax.jpg);
+                    background-attachment: fixed;
+                    background-size: cover;
+                    -moz-background-size: cover;
+                    -webkit-background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    margin: 0 auto;
+                }
+                
+                #parallax-world-of-ugg .parallax-two {
+                    padding-top: 75px;
+                    padding-bottom: 75px;
+                    overflow: hidden;
+                    position: relative;
+                    width: 95%;
+                    background-image: url(images/business_team_parallax.jpg);
+                    background-attachment: fixed;
+                    background-size: cover;
+                    -moz-background-size: cover;
+                    -webkit-background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    margin: 0 auto;
+                    margin-top: 50px;
+                }
+                /* Extras */
+                /**************************/
+                
+                #parallax-world-of-ugg .line-break {
+                    border-bottom: 1px solid black;
+                    width: 150px;
+                    margin: 0 auto;
+                    margin-top: 200px;
+                }
+                /* Media Queries */
+                /**************************/
+                
+                @media screen and (max-width: 767px) and (min-width: 551px) {
+                    #parallax-world-of-ugg .block {
+                        padding: 40px;
+                        width: 620px;
+                    }
+                    .team_title {
+                        margin-top: 25px;
+                        padding-top: 25px;
+                    }
+                    .title_home {
+                        padding-top: 15px;
+                    }
+                }
+                
+                @media screen and (max-width: 959px) and (min-width: 768px) {
+                    #parallax-world-of-ugg .block {
+                        padding: 40px;
+                        width: 620px;
+                    }
+                }
+                
+                @media screen and (max-width: 767px) {
+                    .title_home {
+                        padding-top: 15px;
+                    }
+                    #parallax-world-of-ugg .block {
+                        padding: 30px;
+                        width: 420px;
+                    }
+                    #parallax-world-of-ugg h2 {
+                        font-size: 30px;
+                    }
+                    #parallax-world-of-ugg .block {
+                        padding: 30px;
+                    }
+                    #parallax-world-of-ugg .parallax-one,
+                    #parallax-world-of-ugg .parallax-two,
+                    #parallax-world-of-ugg .parallax-three {
+                        padding-top: 100px;
+                        padding-bottom: 100px;
+                    }
+                }
+                
+                @media screen and (max-width: 479px) {
+                    #parallax-world-of-ugg .block {
+                        padding: 30px 15px;
+                        width: 290px;
+                    }
+                }
+                
+                .text-center {
+                    color: #6c757d;
+                }
+                /* Service */
+                
+                .Service_image {
+                    background-image: url(images/electric-elements.jpg);
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    background-size: cover;
+                    -moz-background-size: cover;
+                    -webkit-background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding: 25px 50px;
+                }
+                /* Expertise */
+                
+                .card_fav_project {
+                    background-color: white;
+                    box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, .2);
+                    border-radius: 8px;
+                    padding: 20px;
+                    width: 21.75%;
+                    margin: 10px;
+                }
+                
+                .card_fav_project_wide {
+                    background-color: white;
+                    box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, .2);
+                    border-radius: 8px;
+                    padding: 20px;
+                    margin: 10px;
+                    width: 45%;
+                }
+                
+                .fav_project_title {
+                    color: #017F7F;
+                    font-size: 2.5em;
+                }
+                
+                .fav_project_text {
+                    font-size: 1em;
+                }
+                
+                .title_expertise_subtitle {
+                    color: black;
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                    font-weight: normal;
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                }
+                /* About Us */
+                
+                img.about_us_photo {
+                    border-radius: 50%;
+                }
+                
+                .team_title {
+                    color: #017F7F;
+                }
+                
+                .SubHeading {
+                    font-weight: bold;
+                }
+                
+                .social {
+                    padding-right: 20px;
+                }
+                
+                i.social.fa.fa-linkedin-square {
+                    font-size: 2.5em;
+                }
+                
+                i.social.fa.fa-envelope {
+                    font-size: 2.5em;
+                }
+                
+                i.social.fa.fa-phone {
+                    font-size: 2.5em;
+                }
+                
+                .social:hover {
+                    color: #E5AA24;
+                }
+                /* Career */
+                
+                .modal-content {}
+                
+                .career_list {
+                    padding-top: 10px;
+                    margin-top: 20px;
+                }
+                
+                .overlay2 {
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background: rgba(0, 0, 0, 0.7);
+                    transition: opacity 500ms;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+                
+                .overlay2:target {
+                    visibility: visible;
+                    opacity: 1;
+                    z-index: 1
+                }
+                
+                .popup {
+                    margin: 70px auto;
+                    padding: 20px;
+                    background: #fff;
+                    border-radius: 5px;
+                    width: 60%;
+                    position: relative;
+                    transition: all 5s ease-in-out;
+                }
+                
+                .popup h2 {
+                    margin-top: 0;
+                    color: #333;
+                    font-family: 'Roboto', 'Futura Std', sans-serif;
+                }
+                
+                .popup .close {
+                    position: absolute;
+                    top: 20px;
+                    right: 30px;
+                    transition: all 200ms;
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: #333;
+                }
+                
+                .popup .close:hover {
+                    color: #E5AA24;
+                }
+                
+                .popup .content {
+                    max-height: 30%;
+                    overflow: auto;
+                }
+                
+                .popup_list_start {
+                    padding-left: 10px;
+                }
+                
+                .popup_list {
+                    margin: 10px;
+                    list-style-type: disc;
+                }
+                
+                @media screen and (max-width: 700px) {
+                    .box {
+                        width: 100%;
+                        background-color: white;
+                    }
+                    .popup {
+                        width: 80%;
+                    }
+                    img.about_us_photo {
+                        border-radius: 50%;
+                    }
+                }
